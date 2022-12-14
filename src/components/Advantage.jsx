@@ -24,7 +24,7 @@ const Advantage = () => {
         "The network is spread over thousands of independent nodes,so  your transactions are always safe.",
     },
   ];
-  
+
   return (
     <section id="how">
       <div className="container">
@@ -38,6 +38,11 @@ const Advantage = () => {
               composability between ecosystem projects by maintaining a single
               global state as the network scales.
             </p>
+          </div>
+          <div className="w-full flex justify-center items-center gap-4">
+            {walletCard.map(({ img, title, details }, i) => (
+              <div></div>
+            ))}
           </div>
         </div>
       </div>
