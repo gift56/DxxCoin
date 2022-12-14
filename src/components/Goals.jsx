@@ -37,9 +37,14 @@ const Goals = () => {
                 />
               </div>
             </div>
-            <div className="flex-1 flex justify-start items-start gap-3">
+            <div className="flex-1 flex flex-col justify-start items-start gap-6 dash">
               {goalsData.map(({ text }, i) => (
-                <div key={i}></div>
+                <div key={i} className="w-full relative flex items-start gap-6 bord">
+                  <div className="w-[8px] h-[80px] border border-[#55DF77] bg-[#55DF77] rounded-sm mybord"></div>
+                  <h2 className="text-white text-[18px] leading-[25px] font-normal">
+                    {text}
+                  </h2>
+                </div>
               ))}
             </div>
           </div>

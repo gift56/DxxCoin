@@ -30,7 +30,14 @@
 .nav__scrolled .myDiv {
   padding: 10px 0;
 }
-.nav__scrolled .myDiv .btn{
+.nav__scrolled .myDiv .btn {
   background-color: white;
   color: #23204d;
+}
+.dash .bord:last-child .mybord {
+  height: 45px;
+  background-color: white;
+}
+.dash .bord:first-child .mybord {
+  height: 59px;
 }
