@@ -26,9 +26,9 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="sticky top-0">
+    <nav className={`sticky top-0 z-20`}>
       <div className="container">
-        <div className="relative flex items-center justify-between py-5">
+        <div className="relative flex items-center justify-between py-4">
           <h1 className="uppercase text-2xl text-white font-bold">
             DXX<span className="text-[#00FF38]">coin</span>
           </h1>
