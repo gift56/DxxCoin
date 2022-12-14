@@ -25,10 +25,20 @@ const Navbar = () => {
     },
   ];
 
-  // useEffect(() => {
-  //   const nav = document.querySelector("nav");
-
-  // }, []);
+  useEffect(() => {
+    const handleScroll = (e) => {
+      const nav = document.querySelector("nav");
+      if (e.currentTarget.scrollY > 50) {
+        nav.classList.add("nav__scrolled");
+      } else {
+        nav.classList.remove("nav__scrolled");
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <nav className={`sticky top-0 z-20`}>
