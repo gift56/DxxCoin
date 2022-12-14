@@ -12,7 +12,9 @@ const Hero = () => {
               <img src={HeroImg} alt="hero image" className="w-full h-full" />
             </div>
           </div>
-          <div className="flex-1"></div>
+          <div className="flex-1 flex items-start justify-start flex-col gap-3">
+            
+          </div>
         </div>
       </div>
     </section>
