@@ -4,6 +4,14 @@ import wallet2 from "../assets/card2Img.svg";
 import wallet3 from "../assets/card3Img.svg";
 
 const Advantage = () => {
+  const walletCard = [
+    {
+      img: wallet1,
+      title: "Powerful for developers",
+      details:
+        "dxxcoin is a decentralized blockchain built to enable scalable, user-friendly apps for the world.",
+    },
+  ];
   return (
     <section id="how">
       <div className="container">
