@@ -26,7 +26,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav>
+    <nav className="sticky top-0">
       <div className="container">
         <div className="relative flex items-center justify-between py-5">
           <h1 className="uppercase text-2xl text-white font-bold">
