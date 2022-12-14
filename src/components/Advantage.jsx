@@ -24,6 +24,7 @@ const Advantage = () => {
         "The network is spread over thousands of independent nodes,so  your transactions are always safe.",
     },
   ];
+  
   return (
     <section id="how">
       <div className="container">
