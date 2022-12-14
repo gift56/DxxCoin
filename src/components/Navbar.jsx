@@ -32,7 +32,7 @@ const Navbar = () => {
             {Links.map(({ link, to }, i) => (
               <li
                 key={i}
-                className="text-[#ffffffea] font-semibold cursor-pointer leading-[120%] text-[19px]"
+                className="text-[#ffffffea] font-semibold cursor-pointer leading-[120%] text-[19px] hover:text-[#00FF38] transition-all duration-300"
               >
                 <Link to={to}>{link}</Link>
               </li>
