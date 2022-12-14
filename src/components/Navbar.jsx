@@ -63,7 +63,7 @@ const Navbar = () => {
           <ul
             className={`md:hidden flex flex-col gap-7 absolute items-center justify-center ${
               open ? "top-[56px]" : "top-[-100vh]"
-            } w-full bg-boxColor py-3 transition-all duration-500`}
+            } w-full bg-[#2cac48d2] py-3 transition-all duration-500`}
           >
             {Links.map(({ link, to }, i) => (
               <li
@@ -73,7 +73,7 @@ const Navbar = () => {
                 <Link to={to}>{link}</Link>
               </li>
             ))}
-            <button className="bg-btnColor  md:hidden px-[20px] py-[14px] min-w-[113px] rounded-[56px] cursor-pointer text-primary hover:bg-[#00ff37dc] hover:text-white transition-all duration-500 border-none font-semibold outline-none  items-center justify-center">
+            <button className="bg-[#00FF38]  md:hidden px-[20px] py-[14px] min-w-[113px] rounded-[56px] cursor-pointer text-white transition-all duration-500 border-none font-semibold outline-none  items-center justify-center">
               Join us
             </button>
           </ul>
