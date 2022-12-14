@@ -43,7 +43,7 @@ const Navbar = () => {
   return (
     <nav className={`sticky top-0 z-20`}>
       <div className="container">
-        <div className="relative flex items-center justify-between py-4">
+        <div className="relative flex items-center justify-between py-4 myDiv">
           <h1 className="uppercase text-2xl text-white font-bold">
             DXX<span className="text-[#00FF38]">coin</span>
           </h1>
@@ -57,7 +57,7 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <button className="bg-btnColor hidden md:flex px-[20px] py-[14px] min-w-[113px] rounded-[56px] cursor-pointer text-primary hover:bg-[#00ff37dc] hover:text-white transition-all duration-500 border-none font-semibold outline-none  items-center justify-center">
+          <button className="bg-btnColor btn hidden md:flex px-[20px] py-[14px] min-w-[113px] rounded-[56px] cursor-pointer text-primary hover:bg-[#00ff37dc] hover:text-white transition-all duration-500 border-none font-semibold outline-none  items-center justify-center">
             Join us
           </button>
           <span className="md:hidden">
