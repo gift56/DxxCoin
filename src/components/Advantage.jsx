@@ -2,6 +2,7 @@ import React from "react";
 import wallet1 from "../assets/cardImg.png";
 import wallet2 from "../assets/card2Img.svg";
 import wallet3 from "../assets/card3Img.svg";
+import { AiFillCaretRight } from "react-icons/ai";
 
 const Advantage = () => {
   const walletCard = [
@@ -28,7 +29,7 @@ const Advantage = () => {
   return (
     <section id="how">
       <div className="container">
-        <div className="flex items-center justify-center flex-col w-full gap-6 py-5">
+        <div className="flex items-center justify-center flex-col w-full gap-10 py-5">
           <div className="flex flex-col gap-4">
             <h1 className="text-white text-2xl md:text-5xl font-bold text-center">
               Our directions and advantages
@@ -39,9 +40,22 @@ const Advantage = () => {
               global state as the network scales.
             </p>
           </div>
-          <div className="w-full flex justify-center items-center gap-4">
+          <div className="w-full flex md:flex-row flex-col justify-center items-center gap-4">
             {walletCard.map(({ img, title, details }, i) => (
-              <div></div>
+              <div className="md:w-[35%] w-full border border-[#ffffff19] rounded-[24px] p-3 flex items-center flex-col gap-2">
+                <div className="w-[166px] h-[115px]">
+                  <img src={img} alt={title} className="w-full h-full" />
+                </div>
+                <div className="flex flex-col justify-center items-center text-center gap-4">
+                  <h2 className="text-lg font-semibold">{title}</h2>
+                  <p className="text-[#ffffffcc] font-normal text-base lg:px-7">
+                    {details}
+                  </p>
+                  <button className="flex items-center justify-center">
+                    Learn more <AiFillCaretRight />
+                  </button>
+                </div>
+              </div>
             ))}
           </div>
         </div>
