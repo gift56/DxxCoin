@@ -18,7 +18,7 @@ const Hero = () => {
               <span className="text-[#57A06A]">Crypto</span> Community
             </h1>
             <p className="text-[#ffffffcc;]">
-              A highly-curated platform for creating, collecting{" "}
+              A highly-curated platform for creating, collecting
             </p>
           </div>
         </div>
