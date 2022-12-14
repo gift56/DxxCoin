@@ -12,10 +12,14 @@ const Hero = () => {
               <img src={HeroImg} alt="hero image" className="w-full h-full" />
             </div>
           </div>
-          <div className="flex-1 flex items-start justify-start flex-col gap-3">
+          <div className="flex-1 flex items-start justify-start flex-col gap-3 relative">
             <h1 className="text-white text-3xl md:text-6xl leading-[110%] font-bold">
-              The World’s Fastest Growing <span>Crypto</span> Community
+              The World’s Fastest Growing{" "}
+              <span className="text-[#57A06A]">Crypto</span> Community
             </h1>
+            <p className="text-[#ffffffcc;]">
+              A highly-curated platform for creating, collecting{" "}
+            </p>
           </div>
         </div>
       </div>
