@@ -16,6 +16,14 @@ const Goals = () => {
               strategies with the professional level crypto trading platform.
             </p>
           </div>
+          <div className="flex md:flex-row flex-col-reverse md:justify-between justify-center items-center w-full gap-3 md:overflow-hidden mt-5">
+            <div className="flex-1">
+              <div className="xl:w-[459px] xl:h-[530px] w-[100%]">
+                <img src={HeroImg} alt="hero image" className="w-full h-full" />
+              </div>
+            </div>
+            <div className="flex-1"></div>
+          </div>
         </div>
       </div>
     </section>
