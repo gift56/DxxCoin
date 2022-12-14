@@ -9,6 +9,11 @@ const Advantage = () => {
             <h1 className="text-white text-2xl md:text-5xl font-bold text-center">
               Our directions and advantages
             </h1>
+            <p className="text-center md:text-xl text-lg md:px-5 font-normal md:max-w-[75%] max-w-[100%] mx-auto">
+              Integrate once and never worry about scaling again. We ensure
+              composability between ecosystem projects by maintaining a single
+              global state as the network scales.
+            </p>
           </div>
         </div>
       </div>
