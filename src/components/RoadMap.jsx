@@ -9,7 +9,10 @@ const RoadMap = () => {
             <h1 className="text-white text-2xl md:text-3xl font-bold text-center">
               Road map 2022
             </h1>
-            <p className="text-center md:text-xl text-lg md:px-5 font-normal md:max-w-[75%] max-w-[100%] mx-auto"></p>
+            <p className="text-center text-lg md:px-5 font-normal md:max-w-[75%] max-w-[100%] mx-auto">
+              The largest and unique Super rare Place marketplace For
+              crypto-collectibles
+            </p>
           </div>
         </div>
       </div>
