@@ -5,7 +5,9 @@ const Goals = () => {
   return (
     <section id="about">
       <div className="container">
-        
+        <div className="flex flex-col w-full gap-4">
+            
+        </div>
       </div>
     </section>
   );
