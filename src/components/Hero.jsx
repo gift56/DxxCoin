@@ -20,6 +20,11 @@ const Hero = () => {
             <p className="text-[#ffffffcc;]">
               A highly-curated platform for creating, collecting
             </p>
+            <div className="flex justify-center gap-5 items-center mt-3">
+              <button className="border-none bg-[#55DF77] min-w-[192px] text-white h-[45px]">
+                Explore
+              </button>
+            </div>
           </div>
         </div>
       </div>
