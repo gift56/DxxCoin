@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import { SiWebmoney } from "react-icons/si";
 import { AiOutlineCloseCircle } from "react-icons/ai";
@@ -24,6 +24,11 @@ const Navbar = () => {
       to: "crypto",
     },
   ];
+
+  // useEffect(() => {
+  //   const nav = document.querySelector("nav");
+
+  // }, []);
 
   return (
     <nav className={`sticky top-0 z-20`}>

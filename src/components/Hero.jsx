@@ -1,7 +1,9 @@
 import React from "react";
 
 const Hero = () => {
-  return <div className="min-h-[100vh]">Hero</div>;
+  return <section id="home">
+    
+  </section>;
 };
 
 export default Hero;
