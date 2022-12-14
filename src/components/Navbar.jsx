@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { SiWebmoney } from "react-icons/si";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 
 const Navbar = () => {
+  const [open, setOpen] = useState(false);
+  
   const Links = [
     {
       link: "Home",
