@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
+import AboutImg from ''
 
 const Goals = () => {
-  return (
-    <div>Goals</div>
-  )
-}
+  return <section id="about">
 
-export default Goals
+  </section>;
+};
+
+export default Goals;
