@@ -11,6 +11,18 @@ const Advantage = () => {
       details:
         "dxxcoin is a decentralized blockchain built to enable scalable, user-friendly apps for the world.",
     },
+    {
+      img: wallet2,
+      title: "Low cost, forever",
+      details:
+        "Our scalability ensures transactions remain less than $0.01 for both developers and users.",
+    },
+    {
+      img: wallet3,
+      title: "Decentralized",
+      details:
+        "The network is spread over thousands of independent nodes,so  your transactions are always safe.",
+    },
   ];
   return (
     <section id="how">
