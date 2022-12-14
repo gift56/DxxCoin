@@ -38,7 +38,7 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <button className="bg-btnColor px-[20px] py-[14px] min-w-[113px] rounded-[56px] cursor-pointer text-primary">
+          <button className="bg-btnColor px-[20px] py-[14px] min-w-[113px] rounded-[56px] cursor-pointer text-primary hover:bg-[#00ff37dc] hover:text-white transition-all duration-500 border-none font-semibold outline-none">
             Join us
           </button>
         </div>
