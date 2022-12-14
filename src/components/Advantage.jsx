@@ -6,7 +6,9 @@ const Advantage = () => {
       <div className="container">
         <div className="flex items-center justify-center flex-col w-full gap-6 py-5">
           <div className="flex flex-col gap-4">
-            <h1>Our directions and advantages</h1>
+            <h1 className="text-white text-2xl md:text-5xl font-bold text-center">
+              Our directions and advantages
+            </h1>
           </div>
         </div>
       </div>
