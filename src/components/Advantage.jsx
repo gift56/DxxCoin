@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Advantage = () => {
-  return (
-    <div>Advantage</div>
-  )
-}
+  return <section id="how">Advantage</section>;
+};
 
-export default Advantage
+export default Advantage;
