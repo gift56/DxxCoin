@@ -12,6 +12,9 @@ module.exports = {
       backgroundImage: {
         pattern: "url(./assets/bgline.svg)",
       },
+      backgroundPosition: {
+        bgPose: "center top 18rem",
+      },
     },
   },
   plugins: [],

@@ -2,9 +2,9 @@ import React from "react";
 
 const RoadMap = () => {
   return (
-    <section id="crypto" className="bg-pattern bg-no-repeat">
+    <section id="crypto" className="bg-pattern bg-no-repeat bg-bgPose bg-[length:90%_80%]">
       <div className="container">
-        <div className="flex items-center justify-center flex-col w-full gap-10 py-10">
+        <div className="flex items-center justify-center flex-col w-full gap-16 py-10 ">
           <div className="flex flex-col gap-4">
             <h1 className="text-white text-2xl md:text-3xl font-bold text-center">
               Road map 2022
