@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const Links = [
@@ -27,7 +28,16 @@ const Navbar = () => {
           <h1 className="uppercase text-2xl text-white font-bold">
             DXX<span className="text-[#00FF38]">coin</span>
           </h1>
-          <ul className="flex items-center justify-center gap-2"></ul>
+          <ul className="flex items-center justify-center gap-6">
+            {Links.map(({ link, to }, i) => (
+              <li
+                key={i}
+                className="text-[#ffffffea] font-semibold cursor-pointer leading-[120%] text-[19px]"
+              >
+                <Link to={to}>{link}</Link>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </nav>
