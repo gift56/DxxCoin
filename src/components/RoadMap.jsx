@@ -14,6 +14,18 @@ const RoadMap = () => {
               crypto-collectibles
             </p>
           </div>
+          <div className="flex flex-col w-full">
+            <div className="w-full flex justify-between items-start">
+              <div className="flex-1 bg-[#ffffffc] rounded-lg p-4 flex flex-col items-center justify-center border gap-4">
+                <h1>January</h1>
+                <div className="flex flex-col gap-3 items-start justify-start w-full">
+                  <h2 className="text-2xl font-semibold text-white">Brief</h2>
+                  
+                </div>
+              </div>
+              <div className="flex-1 bg-[#ffffffc] rounded-lg p-4"></div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
