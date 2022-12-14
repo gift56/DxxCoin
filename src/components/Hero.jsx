@@ -17,12 +17,15 @@ const Hero = () => {
               The World’s Fastest Growing{" "}
               <span className="text-[#57A06A]">Crypto</span> Community
             </h1>
-            <p className="text-[#ffffffcc;]">
+            <p className="text-[#ffffffcc] font-normal md:text-xl text-lg">
               A highly-curated platform for creating, collecting
             </p>
-            <div className="flex justify-center gap-5 items-center mt-3">
-              <button className="border-none bg-[#55DF77] min-w-[192px] text-white h-[45px]">
+            <div className="flex justify-center gap-5 items-center mt-5">
+              <button className="border bg-[#55DF77] min-w-[192px] text-white h-[45px] flex items-center justify-center border-[#55DF77]">
                 Explore
+              </button>
+              <button className="border border-[#55DF77] min-w-[192px] text-white h-[45px] flex items-center justify-center">
+                Buy
               </button>
             </div>
           </div>
