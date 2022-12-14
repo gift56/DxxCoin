@@ -16,7 +16,7 @@ const Goals = () => {
               strategies with the professional level crypto trading platform.
             </p>
           </div>
-          <div className="flex md:flex-row flex-col-reverse md:justify-between justify-center items-center w-full gap-3 md:overflow-hidden mt-5">
+          <div className="flex md:flex-row flex-col-reverse md:justify-between justify-center items-center w-full gap-4 md:overflow-hidden mt-5">
             <div className="flex-1">
               <div className="xl:w-[459px] xl:h-[530px] w-[100%]">
                 <img
@@ -26,7 +26,9 @@ const Goals = () => {
                 />
               </div>
             </div>
-            <div className="flex-1"></div>
+            <div className="flex-1 flex justify-start items-start">
+                
+            </div>
           </div>
         </div>
       </div>
