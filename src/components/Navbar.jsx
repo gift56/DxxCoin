@@ -4,7 +4,9 @@ const Navbar = () => {
   return (
     <nav>
       <div className="container">
-        <h1>DXXcoin</h1>
+        <div className="flex items-center justify-between py-5">
+          <h1>DXXcoin</h1>
+        </div>
       </div>
     </nav>
   );
