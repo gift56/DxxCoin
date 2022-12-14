@@ -2,7 +2,7 @@ import React from "react";
 import wallet1 from "../assets/cardImg.png";
 import wallet2 from "../assets/card2Img.svg";
 import wallet3 from "../assets/card3Img.svg";
-import { AiFillCaretRight } from "react-icons/ai";
+import { BsArrowRightShort } from "react-icons/bs";
 
 const Advantage = () => {
   const walletCard = [
@@ -52,7 +52,7 @@ const Advantage = () => {
                     {details}
                   </p>
                   <button className="flex items-center justify-center">
-                    Learn more <AiFillCaretRight />
+                    Learn more <BsArrowRightShort />
                   </button>
                 </div>
               </div>
