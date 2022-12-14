@@ -28,7 +28,7 @@ const Navbar = () => {
           <h1 className="uppercase text-2xl text-white font-bold">
             DXX<span className="text-[#00FF38]">coin</span>
           </h1>
-          <ul className="flex items-center justify-center gap-6">
+          <ul className="hidden md:flex items-center justify-center gap-6">
             {Links.map(({ link, to }, i) => (
               <li
                 key={i}
@@ -38,7 +38,7 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <button className="bg-btnColor px-[20px] py-[14px] min-w-[113px] rounded-[56px] cursor-pointer text-primary hover:bg-[#00ff37dc] hover:text-white transition-all duration-500 border-none font-semibold outline-none">
+          <button className="bg-btnColor hidden md:flex px-[20px] py-[14px] min-w-[113px] rounded-[56px] cursor-pointer text-primary hover:bg-[#00ff37dc] hover:text-white transition-all duration-500 border-none font-semibold outline-none">
             Join us
           </button>
         </div>
