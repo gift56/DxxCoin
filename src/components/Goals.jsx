@@ -6,11 +6,11 @@ const Goals = () => {
     <section id="about">
       <div className="container">
         <div className="flex flex-col w-full gap-4 py-5">
-          <div className="flex gap-4 flex-col w-full items-center justify-center px-4">
-            <h2 className="text-white text-xl md:text-5xl font-bold">
+          <div className="flex gap-4 flex-col w-full items-center justify-center md:px-4">
+            <h2 className="text-white text-2xl md:text-5xl font-bold">
               Our goal and mission
             </h2>
-            <p className="text-center">
+            <p className="text-center md:text-xl text-lg md:px-5 font-normal">
               Whether you’re an experienced trader or just getting started,
               dxxcoin has all the tools you need. Execute your trading
               strategies with the professional level crypto trading platform.
