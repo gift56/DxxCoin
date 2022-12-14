@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
+import { SiWebmoney } from "react-icons/si";
+import { AiOutlineCloseCircle } from "react-icons/ai";
 
 const Navbar = () => {
   const Links = [
@@ -41,6 +43,9 @@ const Navbar = () => {
           <button className="bg-btnColor hidden md:flex px-[20px] py-[14px] min-w-[113px] rounded-[56px] cursor-pointer text-primary hover:bg-[#00ff37dc] hover:text-white transition-all duration-500 border-none font-semibold outline-none">
             Join us
           </button>
+          <div>
+            <SiWebmoney />
+          </div>
         </div>
       </div>
     </nav>
