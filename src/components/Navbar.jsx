@@ -55,7 +55,11 @@ const Navbar = () => {
               <SiWebmoney onClick={() => setOpen((prev) => !prev)} size={25} />
             )}
           </span>
-          <ul className="md:hidden flex flex-col gap-7 absolute items-center justify-center top-[56px] w-full bg-boxColor py-3">
+          <ul
+            className={`md:hidden flex flex-col gap-7 absolute items-center justify-center ${
+              open ? "top-[56px]" : "top-[-100vh]"
+            } w-full bg-boxColor py-3 transition-all duration-500`}
+          >
             {Links.map(({ link, to }, i) => (
               <li
                 key={i}
