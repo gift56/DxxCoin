@@ -21,10 +21,10 @@ const Hero = () => {
               A highly-curated platform for creating, collecting
             </p>
             <div className="flex justify-center gap-5 items-center mt-5">
-              <button className="border bg-[#55DF77] min-w-[192px] text-white h-[45px] flex items-center justify-center border-[#55DF77]">
+              <button className="border bg-[#55DF77] min-w-[192px] text-white h-[45px] flex items-center justify-center border-[#55DF77] hover:bg-transparent hover:border-[#55DF77] transition-all duration-300">
                 Explore
               </button>
-              <button className="border border-[#55DF77] min-w-[192px] text-white h-[45px] flex items-center justify-center">
+              <button className="border border-[#55DF77] min-w-[192px] text-white h-[45px] flex items-center justify-center  hover:bg-[#55DF77] transition-all duration-300">
                 Buy
               </button>
             </div>
