@@ -2,6 +2,17 @@ import React from "react";
 import AboutImg from "../assets/goalImg.svg";
 
 const Goals = () => {
+  const goalsData = [
+    {
+      text: "An accessible way to buy, sell, and store non-fungible tokens (Crypto) – digital art on the blockchain. You can expect the same industry-leading security technology.",
+    },
+    {
+      text: "The project aims to build increasing connectivity to Ethereum and the wider blockchain ecosystem. AVAX, Avalanche’s native token, is the network’s unit of your persocnal account.",
+    },
+    {
+      text: "High performance tools for active traders and industry-leading security from day one.",
+    },
+  ];
   return (
     <section id="about">
       <div className="container">
@@ -26,9 +37,7 @@ const Goals = () => {
                 />
               </div>
             </div>
-            <div className="flex-1 flex justify-start items-start">
-                
-            </div>
+            <div className="flex-1 flex justify-start items-start gap-3"></div>
           </div>
         </div>
       </div>
