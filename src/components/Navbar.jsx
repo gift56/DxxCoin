@@ -38,6 +38,9 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
+          <button className="bg-btnColor px-[20px] py-[14px] min-w-[113px] rounded-[56px] cursor-pointer text-primary">
+            Join us
+          </button>
         </div>
       </div>
     </nav>

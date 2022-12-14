@@ -7,6 +7,7 @@ module.exports = {
         primary: "#549D66",
         bgColor: "#55DF77",
         boxColor: "rgba(255, 255, 255, 0.05)",
+        btnColor: "rgba(255, 255, 255, 0.08)",
       },
     },
   },
