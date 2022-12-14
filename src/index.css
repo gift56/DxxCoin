@@ -17,4 +17,7 @@
   body {
     @apply bg-[#001102] text-white;
   }
+  .container{
+    @apply w-[90%] my-0 mx-auto
+  }
 }
