@@ -1,4 +1,7 @@
 import React from "react";
+import wallet1 from "../assets/cardImg.png";
+import wallet2 from "../assets/card2Img.svg";
+import wallet3 from "../assets/card3Img.svg";
 
 const Advantage = () => {
   return (
