@@ -4,7 +4,7 @@ const RoadMap = () => {
   return (
     <section
       id="crypto"
-      className="md:bg-pattern md:bg-no-repeat md:bg-bgPose md:bg-[length:90%_80%] relative overflow-hidden"
+      className="md:bg-pattern md:bg-no-repeat md:bg-bgPose md:bg-[length:90%_80%] relative"
     >
       <div className="hidden md:flex bg-[#55DF77] w-[370px] h-[200px] rounded-[50%] blur-[190px] absolute z-[-2] right-0"></div>
       <div className="container">
