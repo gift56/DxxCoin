@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import React from "react";
 import AboutImg from "../assets/goalImg.svg";
 
-
 const Goals = () => {
   const goalsData = [
     {
@@ -21,28 +20,35 @@ const Goals = () => {
         <div className="flex flex-col w-full gap-4 py-5">
           <div className="flex gap-4 flex-col w-full items-center justify-center md:px-4">
             <motion.h2
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              initial={{ opacity: 0, y: "-20px" }}
+              whileInView={{ opacity: 1, y: 0 }}
               transition={{ type: "spring", duration: 2 }}
               className="text-white text-2xl md:text-5xl font-bold"
             >
               Our goal and mission
             </motion.h2>
-            <p className="text-center md:text-xl text-lg md:px-5 font-normal">
+            <motion.p
+              initial={{ opacity: 0, y: "20px" }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ type: "spring", duration: 2 }}
+              className="text-center md:text-xl text-lg md:px-5 font-normal"
+            >
               Whether you’re an experienced trader or just getting started,
               dxxcoin has all the tools you need. Execute your trading
               strategies with the professional level crypto trading platform.
-            </p>
+            </motion.p>
           </div>
           <div className="flex md:flex-row flex-col md:justify-between justify-center items-center w-full gap-4 md:overflow-hidden mt-5">
             <div className="flex-1">
-              <div className="xl:w-[459px] xl:h-[530px] w-[100%]">
+              <motion.div
+              
+              className="xl:w-[459px] xl:h-[530px] w-[100%]">
                 <img
                   src={AboutImg}
                   alt="hero image"
                   className="w-full h-full"
                 />
-              </div>
+              </motion.div>
             </div>
             <div className="flex-1 flex flex-col justify-start items-start gap-6 dash">
               {goalsData.map(({ text }, i) => (
