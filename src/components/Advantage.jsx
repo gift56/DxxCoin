@@ -33,18 +33,23 @@ const Advantage = () => {
         <div className="flex items-center justify-center flex-col w-full gap-10 py-5">
           <div className="flex flex-col gap-4">
             <motion.h1
-              initial={{ opacity: 0, y: "-20px" }}
+              initial={{ opacity: 0, y: "50px" }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ type: "spring", duration: 2 }}
               className="text-white text-2xl md:text-5xl font-bold text-center"
             >
               Our directions and advantages
             </motion.h1>
-            <p className="text-center md:text-xl text-lg md:px-5 font-normal md:max-w-[75%] max-w-[100%] mx-auto">
+            <motion.p
+              initial={{ opacity: 0, y: "50px" }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ type: "spring", duration: 3 }}
+              className="text-center md:text-xl text-lg md:px-5 font-normal md:max-w-[75%] max-w-[100%] mx-auto"
+            >
               Integrate once and never worry about scaling again. We ensure
               composability between ecosystem projects by maintaining a single
               global state as the network scales.
-            </p>
+            </motion.p>
           </div>
           <div className="w-full flex md:flex-row flex-col justify-center items-center gap-4">
             {walletCard.map(({ img, title, details }, i) => (
