@@ -27,6 +27,16 @@ const Advantage = () => {
     },
   ];
 
+  const motionBox = (id) => {
+    if (id === 0) {
+      return "-100px";
+    } else if (id === 2) {
+      return "100px";
+    } else {
+      return "";
+    }
+  };
+
   return (
     <section id="how">
       <div className="container">
@@ -51,9 +61,15 @@ const Advantage = () => {
               global state as the network scales.
             </motion.p>
           </div>
-          <div className="w-full flex md:flex-row flex-col justify-center items-center gap-4">
+          <div className="w-full flex md:flex-row flex-col justify-center items-center gap-4 overflow-hidden">
             {walletCard.map(({ img, title, details }, i) => (
-              <div
+              <motion.div
+                initial={{
+                  opacity: 0,
+                  x: `${motionBox(i)}`,
+                }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ type: "spring", duration: 2 }}
                 key={i}
                 className="md:w-[35%] w-full border border-[#ffffff19] rounded-[24px] p-3 flex items-center flex-col gap-2"
               >
@@ -69,7 +85,7 @@ const Advantage = () => {
                     Learn more <BsArrowRightShort />
                   </button>
                 </div>
-              </div>
+              </motion.div>
             ))}
           </div>
         </div>
