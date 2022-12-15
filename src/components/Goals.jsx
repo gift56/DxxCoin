@@ -14,7 +14,7 @@ const Goals = () => {
     },
   ];
   return (
-    <section id="about" className="relative overflow-hidden">
+    <section id="about" className="relative">
       <div className="container">
         <div className="flex flex-col w-full gap-4 py-5">
           <div className="flex gap-4 flex-col w-full items-center justify-center md:px-4">
