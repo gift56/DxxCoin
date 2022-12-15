@@ -8,7 +8,9 @@ import { motion } from "framer-motion";
 const Join = () => {
   const socialIcons = [
     {
-      icon: <BsInstagram className="w-[25px] h-[25px] text-[#ffffffb7]" />,
+      icon: (
+        <BsInstagram className="w-[25px] h-[25px] text-[#ffffffb7] hover:text-white" />
+      ),
       to: "instagram.com",
     },
     {
@@ -50,7 +52,9 @@ const Join = () => {
             <div className="flex flex-col gap-8">
               <div className="flex md:justify-start items-center justify-center gap-4">
                 {socialIcons.map(({ icon, to }) => (
-                  <a key={to}>{icon}</a>
+                  <a key={to} className="cursor-pointer">
+                    {icon}
+                  </a>
                 ))}
               </div>
               <h2 className="md:text-xl text-lg text-white font-normal">
