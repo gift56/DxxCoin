@@ -1,5 +1,6 @@
 import React from "react";
-import { BsTwitter } from "react-icons/bs";
+import { BsTwitter, BsInstagram } from "react-icons/bs";
+import { FaTelegram } from "react-icons/fa";
 
 const Join = () => {
   return (
