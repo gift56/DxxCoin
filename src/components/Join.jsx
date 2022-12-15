@@ -86,6 +86,16 @@ const Join = () => {
                   />
                 </div>
               </div>
+              <div className="flex items-center justify-between w-full gap-4">
+                <input
+                  type="text"
+                  className="w-full bg-transparent border-b text-lg font-normal placeholder:text-[#ffffffb7] pl-3 outline-none"
+                  placeholder="Email"
+                />
+              </div>
+              <button className="w-[107px] py-[15px] px-[24px] border-[#55DF77] bg-[#55DF77] rounded-[100px] flex items-center justify-center hover:opacity-5">
+                Sign Up
+              </button>
             </div>
           </div>
         </div>
