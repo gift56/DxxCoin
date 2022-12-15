@@ -7,9 +7,6 @@
   font-family: "Manrope", sans-serif !important;
 }
 @layer components {
-  .blur {
-    @apply bg-[#55DF77] absolute rounded-[50%] blur-[150px] -z-10;
-  }
   body {
     @apply bg-[#001102] text-white;
   }

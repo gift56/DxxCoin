@@ -42,7 +42,7 @@ const Advantage = () => {
           </div>
           <div className="w-full flex md:flex-row flex-col justify-center items-center gap-4">
             {walletCard.map(({ img, title, details }, i) => (
-              <div className="md:w-[35%] w-full border border-[#ffffff19] rounded-[24px] p-3 flex items-center flex-col gap-2">
+              <div key={i} className="md:w-[35%] w-full border border-[#ffffff19] rounded-[24px] p-3 flex items-center flex-col gap-2">
                 <div className="w-[166px] h-[115px]">
                   <img src={img} alt={title} className="w-full h-full" />
                 </div>
