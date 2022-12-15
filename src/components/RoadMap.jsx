@@ -34,9 +34,9 @@ const RoadMap = () => {
               </div>
               <div className="flex-1 md:mt-[90px] relative md:after:content-[''] md:after:absolute md:after:top-[-12px] md:after:left-[8%] md:after:w-[100px] md:after:h-[115%] md:after:border-t-[3px] md:after:border-b-[3px] md:after:border-l-[3px] md:after:rounded-lg md:after:border-[#17F948] -z-10">
                 <div className="border-[#00ff3775] rounded-lg p-4 pb-6 flex flex-col items-center justify-center border gap-4 md:w-[90%] relative  z-10 bg-[#021f08] w-full ml-auto">
-                  <h1 className="text-xl font-medium">January</h1>
+                  <h1 className="text-xl font-medium">Fabruary</h1>
                   <div className="flex flex-col gap-2 items-start justify-start w-full">
-                    <h2 className="text-2xl font-semibold text-white">Brief</h2>
+                    <h2 className="text-2xl font-semibold text-white">Research</h2>
                     <p className="text-base font-medium">
                       Lorem ipsum dolor sit amet consectetur. Elit massa erat
                       vitae non semper quis. Morbi sed aliquet donec facilisis.
