@@ -66,8 +66,27 @@ const Join = () => {
             </div>
           </div>
           <div className="flex-1 flex items-center justify-center flex-col gap-8">
-            <h2>Join our community</h2>
-            
+            <h2 className="font-bold text-3xl xl:text-5xl">
+              Join our community
+            </h2>
+            <div className="flex flex-col gap-5 w-full">
+              <div className="flex items-center justify-between w-full gap-4">
+                <div className="w-[50%]">
+                  <input
+                    type="text"
+                    className="w-full bg-transparent border-b text-lg font-normal placeholder:text-[#ffffffb7] pl-3 outline-none"
+                    placeholder="Name"
+                  />
+                </div>
+                <div className="w-[50%]">
+                  <input
+                    type="text"
+                    className="w-full bg-transparent border-b text-lg font-normal placeholder:text-[#ffffffb7] pl-3 outline-none"
+                    placeholder="Surname"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
