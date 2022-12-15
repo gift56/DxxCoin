@@ -93,7 +93,7 @@ const Join = () => {
                   placeholder="Email"
                 />
               </div>
-              <button className="w-[107px] py-[15px] px-[24px] border-[#55DF77] bg-[#55DF77] rounded-[100px] flex items-center justify-center hover:opacity-5">
+              <button className="w-[107px] py-[15px] px-[24px] border-[#55DF77] bg-[#55DF77] rounded-[100px] flex items-center justify-center hover:bg-transparent hover:text-white hover:border hover:border-[#55DF77] transition-all duration-500">
                 Sign Up
               </button>
             </div>
