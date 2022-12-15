@@ -70,15 +70,15 @@ const Join = () => {
               Join our community
             </h2>
             <div className="flex flex-col gap-5 w-full">
-              <div className="flex items-center justify-between w-full gap-4">
-                <div className="w-[50%]">
+              <div className="flex flex-col items-center justify-between w-full gap-4">
+                <div className="md:w-[50%] w-full">
                   <input
                     type="text"
                     className="w-full bg-transparent border-b text-lg font-normal placeholder:text-[#ffffffb7] pl-3 outline-none"
                     placeholder="Name"
                   />
                 </div>
-                <div className="w-[50%]">
+                <div className="md:w-[50%] w-full">
                   <input
                     type="text"
                     className="w-full bg-transparent border-b text-lg font-normal placeholder:text-[#ffffffb7] pl-3 outline-none"
