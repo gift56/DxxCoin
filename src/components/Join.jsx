@@ -65,7 +65,10 @@ const Join = () => {
               ))}
             </div>
           </div>
-          <div className="flex-1"></div>
+          <div className="flex-1 flex items-center justify-center flex-col gap-8">
+            <h2>Join our community</h2>
+            
+          </div>
         </div>
       </div>
     </section>
