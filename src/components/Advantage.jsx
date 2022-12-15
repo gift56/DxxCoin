@@ -3,6 +3,7 @@ import wallet1 from "../assets/cardImg.png";
 import wallet2 from "../assets/card2Img.svg";
 import wallet3 from "../assets/card3Img.svg";
 import { BsArrowRightShort } from "react-icons/bs";
+import { motion } from "framer-motion";
 
 const Advantage = () => {
   const walletCard = [

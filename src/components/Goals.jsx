@@ -1,5 +1,7 @@
+import { motion } from "framer-motion";
 import React from "react";
 import AboutImg from "../assets/goalImg.svg";
+
 
 const Goals = () => {
   const goalsData = [
@@ -18,9 +20,14 @@ const Goals = () => {
       <div className="container">
         <div className="flex flex-col w-full gap-4 py-5">
           <div className="flex gap-4 flex-col w-full items-center justify-center md:px-4">
-            <h2 className="text-white text-2xl md:text-5xl font-bold">
+            <motion.h2
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ type: "spring", duration: 2 }}
+              className="text-white text-2xl md:text-5xl font-bold"
+            >
               Our goal and mission
-            </h2>
+            </motion.h2>
             <p className="text-center md:text-xl text-lg md:px-5 font-normal">
               Whether you’re an experienced trader or just getting started,
               dxxcoin has all the tools you need. Execute your trading
