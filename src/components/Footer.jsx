@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
-  return (
-    <footer>Footer</footer>
-  )
-}
+  const date = new Date();
 
-export default Footer
+  const year = date.getFullYear();
+  return (
+    <footer className="w-full py-4 flex justify-center items-center text-center">
+      <h2>DXXcoin© Copyright {year}. All rights reserved</h2>
+    </footer>
+  );
+};
+
+export default Footer;

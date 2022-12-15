@@ -5,6 +5,7 @@ import Goals from "./components/Goals";
 import Advantage from "./components/Advantage";
 import RoadMap from "./components/RoadMap";
 import Join from "./components/Join";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Advantage />
       <RoadMap />
       <Join />
+      <Footer />
     </>
   );
 };
