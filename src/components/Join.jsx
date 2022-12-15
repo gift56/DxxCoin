@@ -65,12 +65,12 @@ const Join = () => {
               ))}
             </div>
           </div>
-          <div className="flex-1 flex items-center justify-center flex-col gap-8">
+          <div className="flex-1 flex items-center justify-center flex-col gap-8 w-full">
             <h2 className="font-bold text-3xl xl:text-5xl">
               Join our community
             </h2>
             <div className="flex flex-col gap-5 w-full">
-              <div className="flex flex-col items-center justify-between w-full gap-4">
+              <div className="flex flex-col md:flex-row items-center justify-between w-full gap-4">
                 <div className="md:w-[50%] w-full">
                   <input
                     type="text"
