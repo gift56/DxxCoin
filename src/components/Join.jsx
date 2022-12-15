@@ -1,7 +1,7 @@
 import React from "react";
 import { BsTwitter, BsInstagram } from "react-icons/bs";
 import { FaTelegram, FaFacebook } from "react-icons/fa";
-import { HiOutlineLocationMarker } from "react-icons/hi";
+import { HiOutlineLocationMarker, HiOutlinePhone } from "react-icons/hi";
 import { MdOutlineMailOutline } from "react-icons/md";
 
 const Join = () => {
@@ -28,6 +28,14 @@ const Join = () => {
     {
       icon: <HiOutlineLocationMarker />,
       locate: "Turks and caicos Island, over back",
+    },
+    {
+      icon: <HiOutlinePhone />,
+      locate: "+1 649 3479389",
+    },
+    {
+      icon: <MdOutlineMailOutline />,
+      locate: "wilsondorsainvil6@gmail.com",
     },
   ];
 
