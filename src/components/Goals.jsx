@@ -14,7 +14,7 @@ const Goals = () => {
     },
   ];
   return (
-    <section id="about">
+    <section id="about relative">
       <div className="container">
         <div className="flex flex-col w-full gap-4 py-5">
           <div className="flex gap-4 flex-col w-full items-center justify-center md:px-4">
@@ -56,6 +56,7 @@ const Goals = () => {
           </div>
         </div>
       </div>
+      <div className="hidden md:flex bg-[#55DF77] w-[350px] h-[200px] rounded-[50%] blur-[200px] absolute z-[-2] left-[-150px] translate-y-[-90px]"></div>
     </section>
   );
 };
