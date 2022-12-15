@@ -4,7 +4,7 @@ import heroIcon from "../assets/heroIcon.svg";
 
 const Hero = () => {
   return (
-    <section id="home" className="relative overflow-hidden">
+    <section id="home" className="relative">
       <div className="hidden md:flex bg-[#55DF77] w-[400px] h-[300px] rounded-[50%] blur-[200px] absolute z-[-2]"></div>
       <div className="container">
         <div className="flex md:flex-row flex-col-reverse md:justify-between justify-center items-center w-full gap-3 md:overflow-hidden mt-5">
