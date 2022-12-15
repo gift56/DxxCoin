@@ -44,7 +44,7 @@ const Join = () => {
   return (
     <section id="join">
       <div className="container">
-        <div className="flex items-start md:flex-row justify-between flex-col w-full gap-5 py-10">
+        <div className="flex items-start sm:flex-row justify-between flex-col w-full gap-5 py-10">
           <div className="flex-1 flex flex-col gap-9">
             <div className="flex flex-col gap-8">
               <div className="flex md:justify-start items-center justify-center gap-4">
