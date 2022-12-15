@@ -1,17 +1,24 @@
 import React from "react";
 import HeroImg from "../assets/heroImg.svg";
 import heroIcon from "../assets/heroIcon.svg";
+import { motion } from "framer-motion";
 
 const Hero = () => {
+  const transition = { type: "spring", duration: 2 };
   return (
     <section id="home" className="relative">
       <div className="hidden md:flex bg-[#55DF77] w-[400px] h-[300px] rounded-[50%] blur-[200px] absolute z-[-2]"></div>
       <div className="container">
         <div className="flex md:flex-row flex-col-reverse md:justify-between justify-center items-center w-full gap-3 md:overflow-hidden mt-5">
           <div className="flex-1">
-            <div className="xl:w-[459px] xl:h-[530px] w-[100%]">
+            <motion.div
+              initial={{ x: 0 }}
+              whileInView={{ x: "4rem" }}
+              transition={transition}
+              className="xl:w-[459px] xl:h-[530px] w-[100%]"
+            >
               <img src={HeroImg} alt="hero image" className="w-full h-full" />
-            </div>
+            </motion.div>
           </div>
           <div className="flex-1 flex items-start justify-start flex-col gap-3 relative">
             <h1 className="text-white text-3xl lg:text-4xl xl:text-6xl leading-[110%] font-bold">
