@@ -12,17 +12,22 @@ const RoadMap = () => {
         <div className="flex items-center justify-center flex-col w-full gap-16 py-10 ">
           <div className="flex flex-col gap-4">
             <motion.h1
-              initial={{ opacity: 0, y: "-20px" }}
+              initial={{ opacity: 0, y: "50px" }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ type: "spring", duration: 2 }}
               className="text-white text-2xl md:text-3xl font-bold text-center"
             >
               Road map 2022
             </motion.h1>
-            <p className="text-center text-lg md:px-5 font-normal md:max-w-[75%] max-w-[100%] mx-auto">
+            <motion.p
+              initial={{ opacity: 0, y: "50px" }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ type: "spring", duration: 3 }}
+              className="text-center text-lg md:px-5 font-normal md:max-w-[75%] max-w-[100%] mx-auto"
+            >
               The largest and unique Super rare Place marketplace For
               crypto-collectibles
-            </p>
+            </motion.p>
           </div>
           <div className="flex flex-col w-full md:gap-10 gap-5">
             <div className="w-full flex md:flex-row flex-col justify-between items-start gap-4 md:gap-0">
