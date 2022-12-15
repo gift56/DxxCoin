@@ -9,20 +9,26 @@ const Join = () => {
   const socialIcons = [
     {
       icon: (
-        <BsInstagram className="w-[25px] h-[25px] text-[#ffffffb7] hover:text-white" />
+        <BsInstagram className="w-[25px] h-[25px] text-[#ffffffb7] hover:text-white transition-all" />
       ),
       to: "instagram.com",
     },
     {
-      icon: <BsTwitter className="w-[25px] h-[25px] text-[#ffffffb7]" />,
+      icon: (
+        <BsTwitter className="w-[25px] h-[25px] text-[#ffffffb7] transition-all hover:text-blue-400" />
+      ),
       to: "twitter.com",
     },
     {
-      icon: <FaTelegram className="w-[25px] h-[25px] text-[#ffffffb7]" />,
+      icon: (
+        <FaTelegram className="w-[25px] h-[25px] text-[#ffffffb7] transition-all  hover:fill-blue-400" />
+      ),
       to: "telegram.com",
     },
     {
-      icon: <FaFacebook className="w-[25px] h-[25px] text-[#ffffffb7]" />,
+      icon: (
+        <FaFacebook className="w-[25px] h-[25px] text-[#ffffffb7] transition-all  hover:fill-white" />
+      ),
       to: "facebook.com",
     },
   ];
