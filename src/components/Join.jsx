@@ -3,7 +3,7 @@ import { BsTwitter, BsInstagram } from "react-icons/bs";
 import { FaTelegram, FaFacebook } from "react-icons/fa";
 import { HiOutlineLocationMarker, HiOutlinePhone } from "react-icons/hi";
 import { MdOutlineMailOutline } from "react-icons/md";
-import { motion } from "framer-motion";
+
 
 const Join = () => {
   const socialIcons = [
