@@ -26,11 +26,13 @@ const Join = () => {
 
   const contactInfo = [
     {
-      icon: <HiOutlineLocationMarker />,
+      icon: (
+        <HiOutlineLocationMarker className="w-[15px] h-[15px] text-[#ffffffb7]" />
+      ),
       locate: "Turks and caicos Island, over back",
     },
     {
-      icon: <HiOutlinePhone />,
+      icon: <HiOutlinePhone className="w-[15px] h-[15px] text-[#ffffffb7]" />,
       locate: "+1 649 3479389",
     },
     {
@@ -54,7 +56,14 @@ const Join = () => {
                 “If you can dream it, you can do it”
               </h2>
             </div>
-            <div className="flex flex-col gap-6 items-start justify-start"></div>
+            <div className="flex flex-col gap-6 items-start justify-start">
+              {contactInfo.map(({ icon, locate }, i) => (
+                <div className="flex gap-2 items-center justify-start" key={i}>
+                  <span>{icon}</span>
+                  <p className="text-base font-medium text-white">{locate}</p>
+                </div>
+              ))}
+            </div>
           </div>
           <div className="flex-1"></div>
         </div>
