@@ -56,7 +56,7 @@ const Goals = () => {
             <div className="flex-1 flex flex-col justify-start items-start gap-6 dash">
               {goalsData.map(({ text }, i) => (
                 <motion.div
-                  initial={{ opacity: 0, y: "5rem" }}
+                  initial={{ opacity: 0, y: "10rem" }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ type: "spring", duration: 2 }}
                   key={i}
@@ -68,9 +68,14 @@ const Goals = () => {
                   </h2>
                 </motion.div>
               ))}
-              <button className="w-[202px] py-[15px] px-[24px] border-[#55DF77] bg-[#55DF77] rounded-[100px] flex items-center justify-center">
+              <motion.button
+                initial={{ opacity: 0, x: "-59px" }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ type: "spring", duration: 3 }}
+                className="w-[202px] py-[15px] px-[24px] border-[#55DF77] bg-[#55DF77] rounded-[100px] flex items-center justify-center"
+              >
                 Join our Community
-              </button>
+              </motion.button>
             </div>
           </div>
         </div>
