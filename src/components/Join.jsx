@@ -74,14 +74,14 @@ const Join = () => {
                 <div className="md:w-[50%] w-full">
                   <input
                     type="text"
-                    className="w-full bg-transparent border-b text-lg font-normal placeholder:text-[#ffffffb7] pl-3 outline-none"
+                    className="w-full bg-transparent border-b text-lg font-normal placeholder:text-[#ffffffb7] pl-3 outline-none focus:border-[#55DF77]"
                     placeholder="Name"
                   />
                 </div>
                 <div className="md:w-[50%] w-full">
                   <input
                     type="text"
-                    className="w-full bg-transparent border-b text-lg font-normal placeholder:text-[#ffffffb7] pl-3 outline-none"
+                    className="w-full bg-transparent border-b text-lg font-normal placeholder:text-[#ffffffb7] pl-3 outline-none focus:border-[#55DF77]"
                     placeholder="Surname"
                   />
                 </div>
@@ -89,7 +89,7 @@ const Join = () => {
               <div className="flex items-center justify-between w-full gap-4">
                 <input
                   type="text"
-                  className="w-full bg-transparent border-b text-lg font-normal placeholder:text-[#ffffffb7] pl-3 outline-none"
+                  className="w-full bg-transparent border-b text-lg font-normal placeholder:text-[#ffffffb7] pl-3 outline-none focus:border-[#55DF77]"
                   placeholder="Email"
                 />
               </div>
