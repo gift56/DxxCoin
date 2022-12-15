@@ -33,7 +33,7 @@ const RoadMap = () => {
                 </div>
               </div>
               <div className="flex-1 md:mt-[90px]">
-                <div className="border-[#00ff3775] rounded-lg p-4 pb-6 flex flex-col items-center justify-center border gap-4 md:w-[90%] relative  z-10 bg-[#021f08] w-full">
+                <div className="border-[#00ff3775] rounded-lg p-4 pb-6 flex flex-col items-center justify-center border gap-4 md:w-[90%] relative  z-10 bg-[#021f08] w-full ml-auto">
                   <h1 className="text-xl font-medium">January</h1>
                   <div className="flex flex-col gap-2 items-start justify-start w-full">
                     <h2 className="text-2xl font-semibold text-white">Brief</h2>
@@ -61,7 +61,7 @@ const RoadMap = () => {
                 </div>
               </div>
               <div className="flex-1 md:mt-[90px]">
-                <div className="border-[#00ff3775] rounded-lg p-4 pb-6 flex flex-col items-center justify-center border gap-4 md:w-[90%] relative  z-10 bg-[#021f08] w-full">
+                <div className="border-[#00ff3775] rounded-lg p-4 pb-6 flex flex-col items-center justify-center border gap-4 md:w-[90%] relative  z-10 bg-[#021f08] w-full ml-auto">
                   <h1 className="text-xl font-medium">January</h1>
                   <div className="flex flex-col gap-2 items-start justify-start w-full">
                     <h2 className="text-2xl font-semibold text-white">Brief</h2>
