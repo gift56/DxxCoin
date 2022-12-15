@@ -82,11 +82,15 @@ const Navbar = () => {
                 key={i}
                 className="text-[#ffffffea] font-semibold cursor-pointer leading-[120%] text-[19px] hover:text-[#00FF38] transition-all duration-300"
               >
-                <Link to={to}>{link}</Link>
+                <Link to={to} spy={true} smooth={true}>
+                  {link}
+                </Link>
               </li>
             ))}
             <button className="bg-[#00FF38]  md:hidden px-[20px] py-[14px] min-w-[113px] rounded-[56px] cursor-pointer text-white transition-all duration-500 border-none font-semibold outline-none  items-center justify-center">
-              Join us
+              <Link to="join" spy={true} smooth={true}>
+                Join us
+              </Link>
             </button>
           </ul>
         </div>
