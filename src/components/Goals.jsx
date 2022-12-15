@@ -41,8 +41,11 @@ const Goals = () => {
           <div className="flex md:flex-row flex-col md:justify-between justify-center items-center w-full gap-4 md:overflow-hidden mt-5">
             <div className="flex-1">
               <motion.div
-              
-              className="xl:w-[459px] xl:h-[530px] w-[100%]">
+                initial={{ opacity: 0, x: "-5rem" }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ type: "spring", duration: 2 }}
+                className="xl:w-[459px] xl:h-[530px] w-[100%]"
+              >
                 <img
                   src={AboutImg}
                   alt="hero image"
@@ -52,7 +55,10 @@ const Goals = () => {
             </div>
             <div className="flex-1 flex flex-col justify-start items-start gap-6 dash">
               {goalsData.map(({ text }, i) => (
-                <div
+                <motion.div
+                  initial={{ opacity: 0, y: "5rem" }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ type: "spring", duration: 2 }}
                   key={i}
                   className="w-full relative flex items-start gap-6 bord"
                 >
@@ -60,7 +66,7 @@ const Goals = () => {
                   <h2 className="text-white text-[18px] leading-[25px] font-normal">
                     {text}
                   </h2>
-                </div>
+                </motion.div>
               ))}
               <button className="w-[202px] py-[15px] px-[24px] border-[#55DF77] bg-[#55DF77] rounded-[100px] flex items-center justify-center">
                 Join our Community
