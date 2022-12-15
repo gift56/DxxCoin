@@ -12,8 +12,8 @@ const Hero = () => {
         <div className="flex md:flex-row flex-col-reverse md:justify-between justify-center items-center w-full gap-3 md:overflow-hidden mt-5">
           <div className="flex-1">
             <motion.div
-              initial={{ x: 0 }}
-              whileInView={{ x: "4rem" }}
+              initial={{ x: "-5rem" }}
+              whileInView={{ x: 1 }}
               transition={transition}
               className="xl:w-[459px] xl:h-[530px] w-[100%]"
             >
@@ -30,9 +30,14 @@ const Hero = () => {
               The World’s Fastest Growing{" "}
               <span className="text-[#57A06A]">Crypto</span> Community
             </motion.h1>
-            <p className="text-[#ffffffcc] font-normal xl:text-xl text-lg">
+            <motion.p
+              initial={{ opacity: 0, y: "10px" }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ type: "spring", duration: 2 }}
+              className="text-[#ffffffcc] font-normal xl:text-xl text-lg"
+            >
               A highly-curated platform for creating, collecting
-            </p>
+            </motion.p>
             <div className="flex md:justify-start justify-center gap-5 items-center mt-5 w-full">
               <button className="border bg-[#55DF77] md:w-[192px] w-[50%] text-white h-[45px] flex items-center justify-center border-[#55DF77] hover:bg-transparent hover:border-[#55DF77] transition-all duration-300">
                 Explore
